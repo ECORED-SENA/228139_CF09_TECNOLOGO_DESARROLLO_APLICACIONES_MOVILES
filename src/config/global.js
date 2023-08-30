@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Aplicaciones móviles híbridas',
+    descripcionCurso:
+      'Una aplicación híbrida se crea utilizando <i>HTML5</i>, funciona en cualquier plataforma y dispositivo.  Son más rápidas de desarrollar, pero no permiten acceder a todos los recursos de un <i>smartphone</i>, lo que hace indispensable un análisis del producto a desarrollar antes de elegir el tipo de plataforma de desarrollo (nativa, híbrida).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -31,27 +22,32 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Introducción aplicaciones móviles híbridas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tipos de aplicaciones móviles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'La monetización de las <i>apps</i>',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          '<i>Frameworks</i> para el desarrollo de aplicaciones móviles híbridas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Etapas en el desarrollo de <i>apps</i>',
         desarrolloContenidos: true,
       },
     ],
