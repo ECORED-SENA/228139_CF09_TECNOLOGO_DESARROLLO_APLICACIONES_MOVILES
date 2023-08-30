@@ -26,8 +26,7 @@
           img.nW(src='@/assets/curso/temas/t5-it2.svg', alt='tipos de contenidos móviles')
 
     #t_5_1
-    .titulo-segundo.color-acento-contenido
-      .h2 5.1 Conceptualización
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Conceptualización
 
     p.mb-3  Concebir la idea de la aplicación. Por lo general, esta etapa se fundamenta en la identificación de las necesidades y/o problemas de los usuarios que se pretende resolver a través de la app. Se debe realizar una investigación preliminar y un levantamiento de información que debe permitir la comprobación y viabilidad del concepto o idea.
     p.mb-5  La conceptualización define de manera general la funcionalidad de la aplicación. La siguiente figura representa este concepto.
@@ -47,7 +46,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
 
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-botones
           h5 Tabla 1.
           span Conceptualización de la aplicación
 
@@ -89,16 +88,16 @@
     Separador
 
     #t_5_2
-    .titulo-segundo.color-acento-contenido
-      .h2 5.2. Definición
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Definición
 
     p.mb-5  Se identifica y define el grupo de usuarios objetivo que serán los que utilizarán la aplicación trabajando sobre sus características generales.  Con el resultado de esta caracterización, se establece la funcionalidad y alcance del proyecto, especificando el diseño y la interfaz gráfica a trabajar.  En la siguiente tabla se definen algunos de los aspectos incluidos en esta etapa.
 
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
+
         .titulo-sexto.color-acento-botones
-          h5 Tabla 1.
-          span Conceptualización de la aplicación
+          h5 Tabla 2.
+          span Definición de aplicación
 
         .tabla-a.color-acento-botones.mb-5
           table
@@ -115,18 +114,23 @@
 
 
     p.mb-5  En la siguiente figura se muestran los elementos relacionados con la metodología del viaje del usuario, los cuales describen de manera general el comportamiento de un usuario frente al uso de una app.
+
     .row.justify-content-center.mb-5
       .col-lg-8
-        figcaption.customCaption.mb-2  <b>Figura</b> Metodología viaje del usuario
+
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 5.
+          span Metodología viaje del usuario
+
         figure
           img.nW(src='@/assets/curso/temas/t5-t2.svg', alt='tipos de contenidos móviles')
 
 
     Separador
-    br
-    br
-    #t_5_3.titulo-segundo
-      h2 El viaje de usuario
+
+    #t_5_3
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] El viaje de usuario
+
     .row.mb-5
       .col-lg-7
         p.mb-3  Permite realizar una previsualización de cómo se desarrollará la aplicación, generando la secuencia de pasos que representan el escenario en el que un usuario puede interactuar con el proyecto. Sirve para entender la dinámica de la aplicación y permite diseñar una mejor experiencia de usuario.
@@ -143,7 +147,11 @@
 
     .row.justify-content-center.mb-5
       .col-lg-12
-        figcaption.customCaption.mb-2  <b>Tabla</b> Preguntas para resolver en un viaje de usuario
+
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 3.
+          span Preguntas para resolver en un viaje de usuario
+
         .tabla-a.color-acento-botones.mb-5
           table
             thead
@@ -159,53 +167,53 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | ¿Dónde está el usuario?
+                      span ¿Dónde está el usuario?
                     li
                       i.fas.fa-check
-                      | ¿Qué hay a su alrededor?
+                      span ¿Qué hay a su alrededor?
                     li
                       i.fas.fa-check
-                      | ¿Existen factores externos que puedan distraerlo?
+                      span ¿Existen factores externos que puedan distraerlo?
                     li
                       i.fas.fa-check
-                      | ¿Cuál es su motivación?
+                      span ¿Cuál es su motivación?
 
                 td
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | ¿De qué manera cada paso le permite llegar al siguiente?
+                      span ¿De qué manera cada paso le permite llegar al siguiente?
                     li
                       i.fas.fa-check
-                      | ¿La actividad se hace más sencilla con el uso de la aplicación?
+                      span ¿La actividad se hace más sencilla con el uso de la aplicación?
                 td
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | ¿Qué dispositivo está utilizando?
+                      span ¿Qué dispositivo está utilizando?
                     li
                       i.fas.fa-check
-                      | ¿Qué características tiene el dispositivo?
+                      span ¿Qué características tiene el dispositivo?
 
                 td
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | ¿Qué tipo de funcionalidades está esperando?
+                      span ¿Qué tipo de funcionalidades está esperando?
                     li
                       i.fas.fa-check
-                      | ¿Solucionó el problema?
+                      span ¿Solucionó el problema?
                 td
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | ¿Cuál es su estado emocional en cada paso?
+                      span ¿Cuál es su estado emocional en cada paso?
                     li
                       i.fas.fa-check
-                      | ¿Está entretenido, aburrido, enfadado?
+                      span ¿Está entretenido, aburrido, enfadado?
                     li
                       i.fas.fa-check
-                      | ¿Cumplió con sus expectativas?
+                      span ¿Cumplió con sus expectativas?
 
     .row.mb-5.justify-content-center
       .col-lg-2
@@ -215,37 +223,34 @@
         ul.lista-ul--color
           li
             i.fas.fa-check
-            | Una imagen de la persona que va a hacer ese viaje.
+            span Una imagen de la persona que va a hacer ese viaje.
           li
             i.fas.fa-check
-            | Un título que resuma el viaje.
+            span Un título que resuma el viaje.
           li
             i.fas.fa-check
-            | Un resumen en texto o en imágenes de cada paso.
+            span Un resumen en texto o en imágenes de cada paso.
           li
             i.fas.fa-check
-            | Un ejemplo de lo que está sucediendo en cada paso (si se considera necesario).
+            span Un ejemplo de lo que está sucediendo en cada paso (si se considera necesario).
           li
             i.fas.fa-check
-            | El dispositivo utilizado.
+            span El dispositivo utilizado.
           li
             i.fas.fa-check
-            | Los cambios en el trayecto actual (toma de decisiones).
+            span Los cambios en el trayecto actual (toma de decisiones).
           li
             i.fas.fa-check
-            | Beneficios para el usuario y/o negocio.
+            span Beneficios para el usuario y/o negocio.
           li
             i.fas.fa-check
-            | Identificar dificultades o cuellos de botella.
-
-
-
+            span Identificar dificultades o cuellos de botella.
 
     Separador
-    br
-    br
-    #t_5_4.titulo-segundo
-      h2 Diseño
+
+    #t_5_4
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Diseño
+
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -256,7 +261,11 @@
             p.mb-0 Es el aspecto visual de la aplicación, se genera utilizando wireframes o mockups, se crea un prototipo, permitiendo de esta manera que el cliente y/o los usuarios puedan visualizar y probar la estructura gráfica y funcional de la aplicación. Es el momento oportuno para realizar cambios o modificaciones recomendadas por el cliente o los usuarios sin afectar el proceso de desarrollo.  La siguiente tabla resume los elementos incluidos en el proceso de diseño.
     .row.justify-content-center.mb-5
       .col-lg-10
-        figcaption.customCaption.mb-2  <b>Tabla</b> Fases del diseño de una aplicación
+
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 4.
+          span Elementos del diseño de una aplicación
+
         .tabla-a.color-acento-botones
           table
             thead
@@ -271,43 +280,43 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | Define el contenido y la posición de los elementos de la app.
+                      span Define el contenido y la posición de los elementos de la app.
                     li
                       i.fas.fa-check
-                      | Representa cómo será la interacción de los elementos y los módulos.
+                      span Representa cómo será la interacción de los elementos y los módulos.
                 td Se definen los prototipos para ser probados con usuarios.
                 td
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | Análisis funcionales.
+                      span Análisis funcionales.
                     li
                       i.fas.fa-check
-                      | Pruebas de movilidad.
+                      span Pruebas de movilidad.
                     li
                       i.fas.fa-check
-                      | Pruebas de interfaz.
+                      span Pruebas de interfaz.
                     li
                       i.fas.fa-check
-                      | Pruebas de accesibilidad.
+                      span Pruebas de accesibilidad.
                     li
                       i.fas.fa-check
-                      | Pruebas de usabilidad del prototipo.
+                      span Pruebas de usabilidad del prototipo.
                 td
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | Diseño visual acabado que será provisto al desarrollador.
+                      span Diseño visual acabado que será provisto al desarrollador.
                     li
                       i.fas.fa-check
-                      | Pantallas modelo, para la programación del código.
+                      span Pantallas modelo, para la programación del código.
 
 
     Separador
-    br
-    br
-    #t_5_5.titulo-segundo
-      h2 Desarrollo
+
+    #t_5_5
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Desarrollo
+
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -316,9 +325,14 @@
           )
           .bloque-texto-g__texto.p-4.shadow-box
             p.mb-0 Corresponde al inicio de todo el proceso de construcción y desarrollo de la app en el lenguaje de desarrollo y plataforma definidos en las etapas previas.  La siguiente tabla ilustra las fases involucradas en el desarrollo de la aplicación.
+
     .row.justify-content-center.mb-5
       .col-lg-10
-        figcaption.customCaption.mb-2  <b>Tabla</b> Fases del desarrollo de una aplicación
+
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 5.
+          span Fases del desarrollo de una aplicación
+
         .tabla-a.color-acento-botones
           table
             thead
@@ -333,22 +347,19 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | Lenguaje de programación y framework.
+                      span Lenguaje de programación y framework.
                     li
                       i.fas.fa-check
-                      | El desarrollador crea la estructura sobre la cual construirá el funcionamiento de la aplicación.
+                      span El desarrollador crea la estructura sobre la cual construirá el funcionamiento de la aplicación.
                 td Integración de la aplicación a la base de datos.
                 td Integración de las API a la aplicación.
                 td Corrección de errores funcionales para asegurar el correcto funcionamiento y desempeño de la app.
 
-
-
-
     Separador
-    br
-    br
-    #t_5_6.titulo-segundo
-      h2 Pruebas
+
+    #t_5_6
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Pruebas
+
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -360,7 +371,11 @@
 
     .row.justify-content-center.mb-5
       .col-lg-12
-        figcaption.customCaption.mb-2  <b>Tabla</b> Fases de prueba de una aplicación
+
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 6.
+          span Pruebas de la aplicación
+
         .tabla-a.color-acento-botones
           table
             thead
@@ -377,27 +392,27 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | Rendimiento de la app en función a los diferentes dispositivos.
+                      span Rendimiento de la app en función a los diferentes dispositivos.
                     li
                       i.fas.fa-check
-                      | Evaluar aspectos como el sistema operativo, resolución de la pantalla, memoria.
+                      span Evaluar aspectos como el sistema operativo, resolución de la pantalla, memoria.
                 td
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      | Evitar el acceso a datos personales.
+                      span Evitar el acceso a datos personales.
                     li
                       i.fas.fa-check
-                      | Analizar y evaluar la seguridad para evitar amenazas de virus o hackers.
+                      span Analizar y evaluar la seguridad para evitar amenazas de virus o hackers.
                 td Efectividad de recuperación de posible error o fallo (software, red, hardware).
                 td Modificar el código para eliminar errores encontrados en las etapas anteriores.
 
     Separador
-    br
-    br
 
-    #t_5_7.titulo-segundo
-      h2 Publicación
+
+    #t_5_7
+    h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Publicación
+
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -409,7 +424,11 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        figcaption.customCaption.mb-2  <b>Tabla</b> Fases en la publicación de una aplicación
+
+        .titulo-sexto.color-acento-botones
+          h5 Tabla 7.
+          span Publicación de la aplicación
+
         .tabla-a.color-acento-botones.mb-5
           table
             thead
