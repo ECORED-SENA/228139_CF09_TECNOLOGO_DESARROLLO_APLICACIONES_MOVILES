@@ -19,7 +19,7 @@
     .row.justify-content-center.mb-5.pb-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1
+          h5 Figura 1.
           span Tipos de aplicaciones móviles y generalidades
         figure
           img.nW(src='@/assets/curso/temas/t1-ig1.png', alt='Esquema que explica los tipos de aplicaciones móviles y sus generalidades.')

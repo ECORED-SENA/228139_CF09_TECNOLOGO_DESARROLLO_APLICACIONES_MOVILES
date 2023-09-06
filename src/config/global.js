@@ -98,16 +98,10 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '<i>Framworks</i> para el desarrollo de aplicaciones móviles híbridas',
+      referencia: 'Web app, nativa o híbrida: Cadenas, R. (2019). ¿Qué necesito? ¿Web Apps, App Nativa o App Híbrida? GSoft.',
+      tipo: 'Página web',
+      link: 'https://www.gsoft.es/articulos/que-necesito-web-apps-app-nativa-o-app-hibrida/?cli_action=1626116601.578',
     },
   ],
   glosario: [

@@ -19,7 +19,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3
+          h5 Figura 3.
           span Etapas del desarrollo de apps
 
         figure
@@ -34,7 +34,7 @@
     .row.justify-content-center.mb-5(data-aos="flip-down")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4
+          h5 Figura 4.
           span Funcionalidad de una aplicación
 
         figure
@@ -258,7 +258,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t5-i3.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Es el aspecto visual de la aplicación, se genera utilizando wireframes o mockups, se crea un prototipo, permitiendo de esta manera que el cliente y/o los usuarios puedan visualizar y probar la estructura gráfica y funcional de la aplicación. Es el momento oportuno para realizar cambios o modificaciones recomendadas por el cliente o los usuarios sin afectar el proceso de desarrollo.  La siguiente tabla resume los elementos incluidos en el proceso de diseño.
+            p.mb-0 Es el aspecto visual de la aplicación, se genera utilizando <i>wireframes</i> o <i>mockups</i>, se crea un prototipo, permitiendo de esta manera que el cliente y/o los usuarios puedan visualizar y probar la estructura gráfica y funcional de la aplicación. Es el momento oportuno para realizar cambios o modificaciones recomendadas por el cliente o los usuarios sin afectar el proceso de desarrollo.  La siguiente tabla resume los elementos incluidos en el proceso de diseño.
     .row.justify-content-center.mb-5
       .col-lg-10
 
@@ -347,7 +347,7 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      span Lenguaje de programación y framework.
+                      span Lenguaje de programación y <i>framework</i>.
                     li
                       i.fas.fa-check
                       span El desarrollador crea la estructura sobre la cual construirá el funcionamiento de la aplicación.
@@ -404,7 +404,7 @@
                     li
                       i.fas.fa-check
                       span Analizar y evaluar la seguridad para evitar amenazas de virus o hackers.
-                td Efectividad de recuperación de posible error o fallo (software, red, hardware).
+                td Efectividad de recuperación de posible error o fallo (<i>software</i>, red, <i>hardware</i>).
                 td Modificar el código para eliminar errores encontrados en las etapas anteriores.
 
     Separador
