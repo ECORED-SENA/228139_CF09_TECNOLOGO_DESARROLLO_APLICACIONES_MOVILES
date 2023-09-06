@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Aplicaciones móviles híbridas',
     descripcionCurso:
-      'Una aplicación híbrida se crea utilizando <i>HTML5</i>, funciona en cualquier plataforma y dispositivo.  Son más rápidas de desarrollar, pero no permiten acceder a todos los recursos de un <i>smartphone</i>, lo que hace indispensable un análisis del producto a desarrollar antes de elegir el tipo de plataforma de desarrollo (nativa, híbrida).',
+      'Este componente formativo aborda aspectos generales y claves sobre aplicaciones móviles híbridas. Estas, funcionan en cualquier plataforma y dispositivo. Son rápidas de desarrollar, pero no permiten acceder a todos los recursos de un smartphone, lo que hace indispensable un análisis del producto a desarrollar antes de elegir el tipo de plataforma de desarrollo (nativa, híbrida).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },

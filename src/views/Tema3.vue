@@ -10,7 +10,7 @@
 
     .row.mb-5.slideInUp
       .col-lg-7
-        p.mb-3 Existen dos tipos de <i>apps</i>: <b>gratuitas y de pago.</b>  Pero existen varias subdivisiones según los contenidos y la manera de generar recursos económicos. Hay formas de monetizar <i>apps</i> gratuitas, transformándolas en ideas de negocio muy rentables, capaces de generar un mayor recaudo que las <i>apps</i> de pago. Los modelos de monetización son los caminos que se pueden utilizar para obtener dinero a través del uso de las aplicaciones. Suele depender de si la <i>app</i> es gratuita, paga o freemium; también de la categoría de la aplicación, por ejemplo, <b>compras dentro de la <i>app</i> (in-app purchase).</b> Algunas apps, por ejemplo, permiten pagar pequeñas cantidades de dinero por ítems (subproductos) separados, que mejoran las prestaciones básicas o generales del producto principal a comprar.
+        p.mb-3 Existen dos tipos de <i>apps</i>: <b>gratuitas y de pago.</b>  Pero existen varias subdivisiones según los contenidos y la manera de generar recursos económicos. Hay formas de monetizar <i>apps</i> gratuitas, transformándolas en ideas de negocio muy rentables, capaces de generar un mayor recaudo que las <i>apps</i> de pago. Los modelos de monetización son los caminos que se pueden utilizar para obtener dinero a través del uso de las aplicaciones. Suele depender de si la <i>app</i> es gratuita, paga o <i>freemium</i>; también de la categoría de la aplicación, por ejemplo, <b>compras dentro de la <i>app</i> <i>(in-app purchase)</i>.</b> Algunas apps, por ejemplo, permiten pagar pequeñas cantidades de dinero por ítems (subproductos) separados, que mejoran las prestaciones básicas o generales del producto principal a comprar.
         p En la siguiente imagen se muestran ejemplos de modelos de monetización:
       .col-lg-5
         figure
@@ -21,7 +21,7 @@
 
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
-          span Tipos de aplicaciones móviles según sistema operativo
+          span Aplicaciones móviles y modelos de monetización
 
         figure
           img.nW(src='@/assets/curso/temas/t3-i2.svg', alt='tipos de contenidos móviles')
@@ -80,11 +80,11 @@
               figure
                 img(src='@/assets/curso/temas/t3-ic3.png', alt='')
             .col-md-8
-              p Acceso a servicios básicos que permiten conocer la interfaz y funcionalidad de la <i>app</i>; dentro de la <i>app</i> se debe pagar para ampliar el acceso a los servicios o tener privilegios que no se tienen con el servicio básico. Este modelo es popular en servicios de streaming de video o música, como Spotify, en los cuales con una cuenta gratuita se escuchan anuncios entre canciones y con una cuenta de pago mensual (premium en este caso) se usa el servicio sin ningún tipo de publicidad.
+              p Acceso a servicios básicos que permiten conocer la interfaz y funcionalidad de la <i>app</i>; dentro de la <i>app</i> se debe pagar para ampliar el acceso a los servicios o tener privilegios que no se tienen con el servicio básico. Este modelo es popular en servicios de streaming de video o música, como Spotify, en los cuales con una cuenta gratuita se escuchan anuncios entre canciones y con una cuenta de pago mensual (<i>premium</i> en este caso) se usa el servicio sin ningún tipo de publicidad.
 
 
 
-</template>
+</template> 
 
 <script>
 export default {

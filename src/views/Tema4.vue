@@ -16,10 +16,10 @@
           .bloque-texto-g__texto.p-4.shadow-box
             p.mb-0 Usar un <i>framework</i> para el desarrollo de aplicaciones móviles híbridas facilita el trabajo de los desarrolladores, permiten que las apps móviles se ejecuten en las principales plataformas (iOS y Android). El código se puede reutilizar para el desarrollo de aplicaciones web progresivas y en aplicaciones de escritorio.
 
-    p.mb-5  En la siguiente imagen se muestran algunos de los <i>frameworks</i> disponibles para el desarrollo de <i>apps</i> móviles híbridas:
+    p.mb-5  A continuación, se muestran algunos <i>frameworks</i> disponibles para el desarrollo de <i>apps</i> móviles híbridas:
 
     .titulo-sexto.color-acento-contenido
-      h5 <i>Frameworks</i> de desarrollo de apps móviles híbridas
+      h5 <i>Frameworks</i> de desarrollo de <i>apps</i> móviles híbridas
 
     .row.mb-5.justify-content-center
       .col-lg-3

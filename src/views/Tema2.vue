@@ -19,7 +19,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Tipos de aplicaciones móviles según sistema operativo
+          h5 Tipos de aplicaciones móviles y sus funcionalidades
 
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
@@ -84,7 +84,7 @@
               figure
                 img(src='@/assets/curso/temas/t2-ic4.png', alt='')
             .col-md-8
-              p Permiten la transmisión de video, búsqueda de eventos, mensajería instantánea (chats), ver contenido en línea.  Netflix, Amazon Prime Video, Disney Plus son ejemplos claros de su funcionamiento y utilidad.
+              p Permiten la transmisión de video, búsqueda de eventos, mensajería instantánea <i>(chats)</i>, ver contenido en línea.  Netflix, Amazon Prime Video, Disney Plus son ejemplos claros de su funcionamiento y utilidad.
 
           .row.justify-content-center.align-items-center(titulo="Estilo de vida")
             .col-md-2
