@@ -19,7 +19,7 @@
     .row.mb-5.justify-content-center
       .col-lg-7
 
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 2.
           span Aplicaciones móviles y modelos de monetización
 
@@ -84,7 +84,7 @@
 
 
 
-</template> 
+</template>
 
 <script>
 export default {

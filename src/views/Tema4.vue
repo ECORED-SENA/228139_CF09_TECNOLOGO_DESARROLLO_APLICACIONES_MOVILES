@@ -23,34 +23,35 @@
 
     .row.mb-5.justify-content-center
       .col-lg-3
-        .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p1.svg", alt="residuo fresco")
-          .text.p-lg-3.p-4
+        .nav-holder.align-items-center.justify-content-center
+          img(src="@/assets/curso/temas/t4-p1-logo.svg", alt="Logo React Native").logo-1
+          .indicador--click(v-if="mostrarIndicador")
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 React Native<br>
-                | Creación de <i>apps</i> solo <i>JavaScript</i>, interfaz de usuario móvil enriquecida.
+                | Creación de <i>apps</i> solo JavaScript, interfaz de usuario móvil enriquecida.
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p2.svg", alt="Ionic")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p2-logo.svg", alt="Ionic").logo-2
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Ionic<br>
                 | Desarrollo con tecnologías web como CSS, HTML5 y Sass, para instalarse en dispositivos utilizando Cordova.
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p3.svg", alt="NativeScript")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p3-logo.svg", alt="NativeScript").logo-3
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 NativeScript<br>
-                | Aplicaciones nativas, usan las mismas API de <i>Xcode</i> o <i>Android Studio</i>. La interfaz de usuario nativa sin <i>WebViews</i> ejecuta como si fuera desarrollo nativo.
+                | Aplicaciones nativas, usan las mismas API de Xcode o Android Studio. La interfaz de usuario nativa sin <i>WebViews</i> ejecuta como si fuera desarrollo nativo.
 
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p4.svg", alt="Quasar")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p4-logo.svg", alt="Quasar").logo-4
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Quasar<br>
@@ -59,16 +60,16 @@
     .row.mb-5.justify-content-center
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p5.svg", alt="Kendo UI")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p5-logo.svg", alt="Kendo UI").logo-5
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Kendo UI<br>
                 | Colección de componentes de interfaz de usuario de JavaScript, dirigida a clientes empresariales. No hay ninguna versión gratuita.
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p6.svg", alt="Kendo UI")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p6-logo.svg", alt="Framework").logo-6
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Framework7<br>
@@ -76,8 +77,8 @@
 
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p7.svg", alt="Aurelia")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p7-logo.svg", alt="Aurelia").logo-7
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Aurelia<br>
@@ -85,8 +86,8 @@
 
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p8.svg", alt="Ext JS")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p8-logo.svg", alt="Ext JS").logo-8
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Ext JS<br>
@@ -95,8 +96,8 @@
     .row.mb-5.justify-content-center
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p9.svg", alt="Xamarin")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p9-logo.svg", alt="Xamarin").logo-9
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Xamarin<br>
@@ -104,8 +105,8 @@
 
       .col-lg-3
         .nav-holder.align-items-center
-          img(src="@/assets/curso/temas/t4-p10.svg", alt="Unity")
-          .text.p-lg-3.p-4
+          img(src="@/assets/curso/temas/t4-p10-logo.svg", alt="Unity").logo-10
+          .text.p-lg-2.p-4
             .row.px-lg-3.mb-lg-2
               p.small
                 span.h4 Unity<br>
@@ -195,6 +196,7 @@ export default {
   name: 'Tema4',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -207,4 +209,73 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+
+.logo-1
+  width: 112px
+  height: 120px
+
+
+.logo-2
+  width: 220px
+  height: 74px
+  @media screen and (max-width: $bp-max-xl)
+    width: 180px
+    height: 60px
+
+.logo-3
+  width: 220px
+  height: 76px
+  @media screen and (max-width: $bp-max-xl)
+    width: 180px
+    height: 62px
+
+.logo-4
+  width: 235px
+  height: 55px
+  @media screen and (max-width: $bp-max-xl)
+    width: 190px
+    height: 44px
+
+.logo-5
+  width: 220px
+  height: 71px
+  @media screen and (max-width: $bp-max-xl)
+    width: 180px
+    height: 58px
+
+.logo-6
+  width: 210px
+  height: 112px
+  @media screen and (max-width: $bp-max-xl)
+    width: 170px
+    height: 91px
+
+.logo-7
+  width: 230px
+  height: 66px
+  @media screen and (max-width: $bp-max-xl)
+    width: 180px
+    height: 52px
+
+.logo-8
+  width: 220px
+  height: 50px
+  @media screen and (max-width: $bp-max-xl)
+    width: 180px
+    height: 41px
+
+.logo-9
+  width: 194px
+  height: 110px
+  @media screen and (max-width: $bp-max-xl)
+    width: 141px
+    height: 80px
+
+.logo-10
+  width: 214px
+  height: 80px
+  @media screen and (max-width: $bp-max-xl)
+    width: 170px
+    height: 64px
+</style>

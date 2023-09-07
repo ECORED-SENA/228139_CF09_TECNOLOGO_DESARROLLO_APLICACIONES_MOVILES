@@ -39,21 +39,25 @@ td
   color: #12263F
 
 .nav-holder
-  display: inline-block;
-  margin: 10px 5px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+  display: flex
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  width: 100%
   -webkit-transform: translateZ(0)
   -moz-transform: translateZ(0)
   transform: translateZ(0)
+  border-bottom: 4px solid $color-acento-botones
+  min-height: 200px
+
+
 .nav-holder *, .nav-holder *:before, .nav-holder *:after
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.45s ease;
-  -moz-transition: all 0.45s ease;
-  transition: all 0.45s ease;
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
 
 .nav-holder:before
   position: absolute
@@ -68,6 +72,9 @@ td
   -webkit-transition: all 0.45s ease
   -moz-transition: all 0.45s ease
   transition: all 0.45s ease
+
+
+
 
 .nav-holder:before
   -webkit-transform: translateY(100%)
@@ -96,10 +103,13 @@ td
     backface-visibility: hidden
     vertical-align: top
     z-index: 0
+
   p, i
     opacity: 0
     text-align: center
-    font-weight: 700
+    font-weight: 500
+    @media screen and (max-width: $bp-max-lg)
+      font-size: 0.8rem
 
 .nav-holder h3
     margin: 0

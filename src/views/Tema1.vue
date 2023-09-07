@@ -22,7 +22,7 @@
           h5 Figura 1.
           span Tipos de aplicaciones móviles y generalidades
         figure
-          img.nW(src='@/assets/curso/temas/t1-ig1.png', alt='Esquema que explica los tipos de aplicaciones móviles y sus generalidades.')
+          img.nW(src='@/assets/curso/temas/t1-ig1.svg', alt='Esquema que explica los tipos de aplicaciones móviles y sus generalidades.')
 
     TabsA.color-acento-botones.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases =>
