@@ -24,21 +24,21 @@
           span Aplicaciones móviles y modelos de monetización
 
         figure
-          img.nW(src='@/assets/curso/temas/t3-i2.svg', alt='tipos de contenidos móviles')
+          img.nW(src='@/assets/curso/temas/t3-i2.svg', alt='Imagen que expone las aplicaciones móviles y los modelos de monetización para los que pueden ser usadas o desarrolladas.')
 
     p.mb-5  A continuación, se describen algunos conceptos involucrados en la monetización de <i>apps</i>:
 
     .row.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-          .row.justify-content-center.align-items-center(titulo="Apps gratuitas")
+          .row.justify-content-center.align-items-center(titulo="<i>Apps</i> gratuitas")
             .col-md-2
               figure
                 img(src='@/assets/curso/temas/t2-ic3.png', alt='')
             .col-md-8
               p Uno de los mayores beneficios que se logra con una aplicación gratuita es el alcance o cantidad de usuarios a los que puede llegar, debido a que no existen barreras para su descarga y uso.
 
-          .row.justify-content-center.align-items-center(titulo="Apps de pago")
+          .row.justify-content-center.align-items-center(titulo="<i>Apps</i> de pago")
             .col-md-2
               figure
                 img(src='@/assets/curso/temas/t2-ic4.png', alt='')
@@ -50,9 +50,9 @@
               figure
                 img(src='@/assets/curso/temas/t2-ic6.png', alt='')
             .col-md-8
-              p Es una combinación de los tipos descritos previamente. Su nombre es una mezcla de las palabras inglesas free y premium. Son aplicaciones de descarga gratuita, que permiten un uso básico y limitado de sus funcionalidades, y que requieren de un pago para poder usar funcionalidades avanzadas.
+              p Es una combinación de los tipos descritos previamente. Su nombre es una mezcla de las palabras inglesas #[em free] y #[em premium]. Son aplicaciones de descarga gratuita, que permiten un uso básico y limitado de sus funcionalidades, y que requieren de un pago para poder usar funcionalidades avanzadas.
 
-          .row.justify-content-center.align-items-center(titulo="Free trial")
+          .row.justify-content-center.align-items-center(titulo="<i>Free trial</i>")
             .col-md-2
               figure
                 img(src='@/assets/curso/temas/t3-ic1.png', alt='')
@@ -80,7 +80,7 @@
               figure
                 img(src='@/assets/curso/temas/t3-ic3.png', alt='')
             .col-md-8
-              p Acceso a servicios básicos que permiten conocer la interfaz y funcionalidad de la <i>app</i>; dentro de la <i>app</i> se debe pagar para ampliar el acceso a los servicios o tener privilegios que no se tienen con el servicio básico. Este modelo es popular en servicios de streaming de video o música, como Spotify, en los cuales con una cuenta gratuita se escuchan anuncios entre canciones y con una cuenta de pago mensual (<i>premium</i> en este caso) se usa el servicio sin ningún tipo de publicidad.
+              p Acceso a servicios básicos que permiten conocer la interfaz y funcionalidad de la <i>app</i>; dentro de la <i>app</i> se debe pagar para ampliar el acceso a los servicios o tener privilegios que no se tienen con el servicio básico. Este modelo es popular en servicios de #[em streaming] de video o música, como Spotify, en los cuales con una cuenta gratuita se escuchan anuncios entre canciones y con una cuenta de pago mensual (<i>premium</i> en este caso) se usa el servicio sin ningún tipo de publicidad.
 
 
 

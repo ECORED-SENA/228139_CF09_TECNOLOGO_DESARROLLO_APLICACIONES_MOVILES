@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Aplicaciones móviles híbridas',
     descripcionCurso:
-      'Este componente formativo aborda aspectos generales y claves sobre aplicaciones móviles híbridas. Estas, funcionan en cualquier plataforma y dispositivo. Son rápidas de desarrollar, pero no permiten acceder a todos los recursos de un smartphone, lo que hace indispensable un análisis del producto a desarrollar antes de elegir el tipo de plataforma de desarrollo (nativa, híbrida).',
+      'Este componente formativo aborda aspectos generales y claves sobre aplicaciones móviles híbridas. Estas, funcionan en cualquier plataforma y dispositivo. Son rápidas de desarrollar, pero no permiten acceder a todos los recursos de un <i>smartphone</i>, lo que hace indispensable un análisis del producto a desarrollar antes de elegir el tipo de plataforma de desarrollo (nativa, híbrida).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
@@ -109,18 +109,41 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'BackEnd',
+      significado:
+        'es un conjunto de acciones que permiten la integración a las bases de datos o la conexión por medio de API a los dispositivos o servicios.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Interface (interfaz)',
+      significado:
+        'Zona de contacto, conexión entre dos componentes de hardware, entre dos aplicaciones o entre un usuario y una aplicación. [WEB]. También apariencia externa de una aplicación informática. Ver también: "application". [RFCALVO]',
+    },
+    {
+      termino: 'JavaScript',
+      significado:
+        'Lenguaje de programación para WWW, desarrollado por Netscape. Al igual que VBScript, pertenece a la familia Java, pero se diferencia de este último en que los programas están incorporados en el fichero HTML. Ver también: "Java", "script", "VBScript". [RFCALVO]',
+    },
+    {
+      termino: 'Operating System – OS(sistema operativo)',
+      significado:
+        'Un sistema operativo es un programa especial que se carga en un ordenador o dispositivo móvil tras ser encendido, cuya función es gestionar los programas, o aplicaciones, que se ejecutarán en dicho dispositivo, como un procesador de texto o una hoja de cálculo, o la impresión de un texto en una impresora o una conexión a Internet.',
+    },
+    {
+      termino: 'Source Code (código fuente)',
+      significado:
+        'Conjunto de instrucciones que componen un programa informático. Estos programas se escriben en determinados lenguajes, según la necesidad a solucionar. Cada lenguaje tiene características que facilitan el desarrollo.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Cadenas, R. (2019). ¿Qué necesito? <i>¿Web Apps, App Nativa o App Híbrida?</i> GSoft.',
+      link:
+        'https://www.gsoft.es/articulos/que-necesito-web-apps-app-nativa-o-app-hibrida/?cli_action=1626116601.578',
+    },
+    {
+      referencia: 'CuponU. (2021). Uber ¿Cómo funciona? CuponU.com.',
+      link: 'https://cuponu.com/uber-como-funciona/',
     },
   ],
   creditos: [
@@ -144,10 +167,24 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          nombre: 'Wilson Andrés Cuervo Nieto',
+          cargo: 'Instructor',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Gustavo Santis Mancipe',
+          cargo: 'Diseñador instruccional',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluador instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Uriel Darío González Montoya',
+          cargo: 'Revisión y corrección de estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
       ],
     },
@@ -155,13 +192,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Calor Julian Ramirez Benitez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
@@ -173,7 +210,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',

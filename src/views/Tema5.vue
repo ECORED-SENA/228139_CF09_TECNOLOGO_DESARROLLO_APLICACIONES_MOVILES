@@ -23,7 +23,7 @@
           span Etapas del desarrollo de apps
 
         figure
-          img.nW(src='@/assets/curso/temas/t5-it2.svg', alt='tipos de contenidos móviles')
+          img.nW(src='@/assets/curso/temas/t5-it2.svg', alt='Esquema en secuencia que expone las siete etapas del desarrollo de aplicaciones y sus generalidades.')
 
     #t_5_1
     h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Conceptualización
@@ -38,7 +38,7 @@
           span Funcionalidad de una aplicación
 
         figure
-          img.nW(src='@/assets/curso/temas/t5-p1.png', alt='tipos de contenidos móviles')
+          img.nW(src='@/assets/curso/temas/t5-p1.png', alt='Gráfica que ejemplifica las fases de funcionamiento de la aplicación de Uber y sus ejecuciones concretas de cada fase.')
         figcaption  <b>Nota.</b> Tomada de CuponU (2021).
 
     p.mb-5  La conceptualización incluye elementos como los especificados en la siguiente tabla:
@@ -123,7 +123,7 @@
           span Metodología viaje del usuario
 
         figure
-          img.nW(src='@/assets/curso/temas/t5-t2.svg', alt='tipos de contenidos móviles')
+          img.nW(src='@/assets/curso/temas/t5-t2.svg', alt='En la siguiente figura se muestran los elementos relacionados con la metodología del viaje del usuario, los cuales describen de manera general el comportamiento de un usuario frente al uso de una app.')
 
 
     Separador
