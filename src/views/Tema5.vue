@@ -123,7 +123,7 @@
           span Metodología viaje del usuario
 
         figure
-          img.nW(src='@/assets/curso/temas/t5-t2.svg', alt='En la siguiente figura se muestran los elementos relacionados con la metodología del viaje del usuario, los cuales describen de manera general el comportamiento de un usuario frente al uso de una app.')
+          img.nW(src='@/assets/curso/temas/t5-t2.svg', alt='Gráfica que detalla los elementos de la metodología de viaje de usuario, en relación con su comportamiento: descubre, descarga, interactúa, utiliza.')
 
 
     Separador

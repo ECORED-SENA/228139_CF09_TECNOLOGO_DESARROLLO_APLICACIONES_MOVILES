@@ -14,7 +14,7 @@
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/iXR0zkUVsoQ?si=0ce1JfLSx_tSJdp2" title="Aplicaciones móviles híbridas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video.Aplicaciones móviles híbridas
+      figcaption Video. Aplicaciones móviles híbridas
 
 </template>
 
