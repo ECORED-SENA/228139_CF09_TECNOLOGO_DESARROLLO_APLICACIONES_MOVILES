@@ -45,7 +45,7 @@
             .col-md-8
               p El éxito de una aplicación que debe ser comprada para usarse es difícil de medir; poner un precio a una aplicación es una barrera difícil de superar para un usuario, quien en ocasiones no se arriesga a pagar por algo que aún no conoce.  Habitualmente, se requiere de un número importante de descargas y comentarios positivos sobre su funcionalidad para ser confiables y rentables, lo que genera una buena reputación que atrae a nuevos usuarios.
 
-          .row.justify-content-center.align-items-center(titulo="El modelo freemium")
+          .row.justify-content-center.align-items-center(titulo="El modelo <em>freemium</em>")
             .col-md-2
               figure
                 img(src='@/assets/curso/temas/t2-ic6.png', alt='')

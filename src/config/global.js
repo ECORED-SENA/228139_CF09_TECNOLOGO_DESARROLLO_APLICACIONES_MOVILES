@@ -109,7 +109,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'BackEnd',
+      termino: '<em>BackEnd</em>',
       significado:
         'es un conjunto de acciones que permiten la integración a las bases de datos o la conexión por medio de API a los dispositivos o servicios.',
     },
@@ -124,12 +124,12 @@ export default {
         'Lenguaje de programación para WWW, desarrollado por Netscape. Al igual que VBScript, pertenece a la familia Java, pero se diferencia de este último en que los programas están incorporados en el fichero HTML. Ver también: "Java", "script", "VBScript". [RFCALVO]',
     },
     {
-      termino: 'Operating System – OS(sistema operativo)',
+      termino: '<em>Operating System</em> - OS(sistema operativo)',
       significado:
         'Un sistema operativo es un programa especial que se carga en un ordenador o dispositivo móvil tras ser encendido, cuya función es gestionar los programas, o aplicaciones, que se ejecutarán en dicho dispositivo, como un procesador de texto o una hoja de cálculo, o la impresión de un texto en una impresora o una conexión a Internet.',
     },
     {
-      termino: 'Source Code (código fuente)',
+      termino: '<em>Source Code</em> (código fuente)',
       significado:
         'Conjunto de instrucciones que componen un programa informático. Estos programas se escriben en determinados lenguajes, según la necesidad a solucionar. Cada lenguaje tiene características que facilitan el desarrollo.',
     },
@@ -204,7 +204,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Carlos Eduardo Garavito Parada',
           cargo: 'Animador y Producción audiovisual',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
