@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 5
-      h1 Etapas en el desarrollo de apps
+      h1 Etapas en el desarrollo de <i>apps</i>
 
     .row.justify-content-center.mb-5.slideInUp
       .col-lg-10
@@ -14,13 +14,13 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t5-i1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Para desarrollar una aplicación móvil, se deben seguir una serie de etapas, similares a las que se realizan cuando se desarrolla cualquier tipo de software, pero aplicadas a una app móvil. Es fundamental conocerlas para desarrollar un producto de calidad. El desarrollo de aplicaciones móviles no se limita solo a la generación del código fuente o la interfaz de usuario, está compuesto por otras etapas que se ilustran a continuación en la siguiente figura:
+            p.mb-0 Para desarrollar una aplicación móvil, se deben seguir una serie de etapas, similares a las que se realizan cuando se desarrolla cualquier tipo de <i>software</i>, pero aplicadas a una <i>app</i> móvil. Es fundamental conocerlas para desarrollar un producto de calidad. El desarrollo de aplicaciones móviles no se limita solo a la generación del código fuente o la interfaz de usuario, está compuesto por otras etapas que se ilustran a continuación en la siguiente figura:
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
-          span Etapas del desarrollo de apps
+          span Etapas del desarrollo de <i>apps</i>
 
         figure
           img.nW(src='@/assets/curso/temas/t5-it2.svg', alt='Esquema en secuencia que expone las siete etapas del desarrollo de aplicaciones y sus generalidades.')
@@ -28,7 +28,7 @@
     #t_5_1
     h3.mb-5 #[i.fas.fa-angle-double-right.txt--color-acento-contenido] Conceptualización
 
-    p.mb-3  Concebir la idea de la aplicación. Por lo general, esta etapa se fundamenta en la identificación de las necesidades y/o problemas de los usuarios que se pretende resolver a través de la app. Se debe realizar una investigación preliminar y un levantamiento de información que debe permitir la comprobación y viabilidad del concepto o idea.
+    p.mb-3  Consiste en concebir la idea de la aplicación. Por lo general, esta etapa se fundamenta en la identificación de las necesidades y/o problemas de los usuarios que se pretende resolver a través de la <i>app</i>. Se debe realizar una investigación preliminar y un levantamiento de información que debe permitir la comprobación y viabilidad del concepto o idea.
     p.mb-5  La conceptualización define de manera general la funcionalidad de la aplicación. La siguiente figura representa este concepto.
 
     .row.justify-content-center.mb-5(data-aos="flip-down")
@@ -103,17 +103,17 @@
           table
             thead
               tr
-                th Alcance de la app
+                th Alcance de la <i>app</i>
                 th Definición de usuarios
                 th Definición funcional
             tbody
               tr
-                td Se determina el alcance del proyecto, diseño y desarrollo de la app.
+                td Se determina el alcance del proyecto, diseño y desarrollo de la <i>app</i>.
                 td Se describen detalladamente las características de los usuarios para quienes se diseñará la aplicación.
                 td Usando la metodología viaje del usuario, se identifican las características y se establece la funcionalidad óptima de la aplicación.
 
 
-    p.mb-5  En la siguiente figura se muestran los elementos relacionados con la metodología del viaje del usuario, los cuales describen de manera general el comportamiento de un usuario frente al uso de una app.
+    p.mb-5  En la siguiente figura se muestran los elementos relacionados con la metodología del viaje del usuario, los cuales describen de manera general el comportamiento de un usuario frente al uso de una <i>app</i>.
 
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -258,7 +258,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t5-i3.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Es el aspecto visual de la aplicación, se genera utilizando <i>wireframes</i> o <i>mockups</i>, se crea un prototipo, permitiendo de esta manera que el cliente y/o los usuarios puedan visualizar y probar la estructura gráfica y funcional de la aplicación. Es el momento oportuno para realizar cambios o modificaciones recomendadas por el cliente o los usuarios sin afectar el proceso de desarrollo.  La siguiente tabla resume los elementos incluidos en el proceso de diseño.
+            p.mb-0 Es el aspecto visual de la aplicación, se genera utilizando <i>wireframes</i> o <i>mockups</i>, se crea un prototipo, permitiendo de esta manera que el cliente y/o los usuarios puedan visualizar y probar la estructura gráfica y funcional de la aplicación. Es el momento oportuno para realizar cambios o modificaciones recomendadas por el cliente o los usuarios sin afectar el proceso de desarrollo.  La siguiente tabla resume los elementos incluidos en el proceso de diseño:
     .row.justify-content-center.mb-5
       .col-lg-10
 
@@ -270,7 +270,7 @@
           table
             thead
               tr
-                th Wireframes
+                th <i>Wireframes</i>
                 th Prototipos
                 th Test con usuarios
                 th Diseño visual
@@ -280,7 +280,7 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      span Define el contenido y la posición de los elementos de la app.
+                      span Define el contenido y la posición de los elementos de la <i>app</i>.
                     li
                       i.fas.fa-check
                       span Representa cómo será la interacción de los elementos y los módulos.
@@ -324,7 +324,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t5-i4.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Corresponde al inicio de todo el proceso de construcción y desarrollo de la app en el lenguaje de desarrollo y plataforma definidos en las etapas previas.  La siguiente tabla ilustra las fases involucradas en el desarrollo de la aplicación.
+            p.mb-0 Corresponde al inicio de todo el proceso de construcción y desarrollo de la <i>app</i> en el lenguaje de desarrollo y plataforma definidos en las etapas previas.  La siguiente tabla ilustra las fases involucradas en el desarrollo de la aplicación.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -353,7 +353,7 @@
                       span El desarrollador crea la estructura sobre la cual construirá el funcionamiento de la aplicación.
                 td Integración de la aplicación a la base de datos.
                 td Integración de las API a la aplicación.
-                td Corrección de errores funcionales para asegurar el correcto funcionamiento y desempeño de la app.
+                td Corrección de errores funcionales para asegurar el correcto funcionamiento y desempeño de la <i>app</i>.
 
     Separador
 
@@ -367,7 +367,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t5-i5.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Para garantizar el correcto funcionamiento de la app, es importante realizar una serie de pruebas; a través de ellas, se puede medir la aceptación y usabilidad de la aplicación. Estas fases se describen en la siguiente tabla.
+            p.mb-0 Para garantizar el correcto funcionamiento de la <i>app</i>, es importante realizar una serie de pruebas; a través de ellas, se puede medir la aceptación y usabilidad de la aplicación. Estas fases se describen en la siguiente tabla:
 
     .row.justify-content-center.mb-5
       .col-lg-12
@@ -392,7 +392,7 @@
                   ul.lista-ul--color
                     li
                       i.fas.fa-check
-                      span Rendimiento de la app en función a los diferentes dispositivos.
+                      span Rendimiento de la <i>app</i> en función a los diferentes dispositivos.
                     li
                       i.fas.fa-check
                       span Evaluar aspectos como el sistema operativo, resolución de la pantalla, memoria.
@@ -420,7 +420,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t5-i6.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Al llegar a esta fase, se asume que la aplicación se encuentra lista para publicación. Se definen los requerimientos de publicación, realizando la configuración según las políticas de la tienda de aplicaciones.  En la siguiente tabla se describen sus fases.
+            p.mb-0 Al llegar a esta fase, se asume que la aplicación se encuentra lista para publicación. Se definen los requerimientos de publicación, realizando la configuración según las políticas de la tienda de aplicaciones.  En la siguiente tabla se describen sus fases:
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -440,7 +440,7 @@
               tr
                 td La aplicación es puesta a disposición de los usuarios en las tiendas digitales.
                 td Seguimiento a través de analíticas, estadísticas y comentarios de usuarios.
-                td Se mide el desempeño de la app, se corrigen errores, se realizan mejoras y se actualizan futuras versiones.
+                td Se mide el desempeño de la <i>app</i>, se corrigen errores, se realizan mejoras y se actualizan futuras versiones.
 
 </template>
 

@@ -65,7 +65,7 @@
               figure
                 img(src='@/assets/curso/temas/t2-ic2.png', alt='')
             .col-md-8
-              p Son aplicaciones que se desarrollan para diferentes perfiles de usuario; por ejemplo, incluyen una versión gratuita que permite usar funcionalidades básicas con algunas limitaciones o publicidad, y otra versión paga que incluye otras funcionalidades o que elimina la publicidad.
+              p Son aplicaciones que se desarrollan para diferentes perfiles de usuario; por ejemplo, incluyen una versión gratuita que permite usar funcionalidades básicas con algunas limitaciones o publicidad y otra versión paga que incluye otras funcionalidades o que elimina la publicidad.
 
 
           .row.justify-content-center.align-items-center(titulo="Publicidad")

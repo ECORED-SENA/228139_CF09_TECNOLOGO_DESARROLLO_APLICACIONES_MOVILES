@@ -186,6 +186,12 @@ export default {
           cargo: 'Revisión y corrección de estilo',
           centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
+        {
+          nombre: 'Fabian Leonardo Correa Díaz',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
       ],
     },
     {

@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/t1-i1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 Existen varios tipos de aplicaciones móviles, que se pueden clasificar según la manera en la que se utilizan e integran con el sistema operativo: nativas, web e híbridas. <b>A continuación, se exponen sus principales características, algunas de las cuales se evidencian en la siguiente figura.</b>
+            p.mb-0 Existen varios tipos de aplicaciones móviles, que se pueden clasificar según la manera en la que se utilizan e integran con el sistema operativo: nativas, web e híbridas. <b>A continuación, se exponen sus principales características, algunas de las cuales se evidencian en la siguiente figura:</b>
 
     .row.justify-content-center.mb-5.pb-5
       .col-lg-8
@@ -28,7 +28,7 @@
       //- .tarjeta debe ir acompañado de una de una de estas clases =>
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde
-      .tarjeta.color-light-blue.p-4(titulo="Qué es una app")
+      .tarjeta.color-light-blue.p-4(titulo="Qué es una <i>app</i>")
         h4 Qué es una <i>app</i> o aplicación móvil
         .row
           .col-lg-8
